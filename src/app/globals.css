@@ -1,7 +1,5 @@
 @import "tailwindcss/preflight";
-@tailwind utilities;
 
-/* keep imported animation plugin as-is (if it provides a CSS file) */
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -123,3 +121,6 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Insert utilities last so they can override base layer rules */
+@tailwind utilities;
