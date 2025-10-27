@@ -6,7 +6,9 @@ export default function Home() {
       <div className="flex">
         <Sidebar />
         <main className="flex-1 p-8">
-          <h1 className="text-2xl font-bold mb-4">Página Principal</h1>
+          <h1 className="text-2xl font-bold mb-4 text-white">
+            Página Principal
+          </h1>
         </main>
       </div>
     </div>
