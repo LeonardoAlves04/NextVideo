@@ -10,7 +10,7 @@ const Navbar = () => {
         <Image
           src="/icons/logo.svg"
           width={32}
-          height={32}
+          height={40}
           alt="yoom logo"
           className="max-sm:size-10"
         />
@@ -18,6 +18,9 @@ const Navbar = () => {
           YOOM
         </p>
       </Link>
+      <div className="flex-between gap-5">
+        <MobileNav />
+      </div>
     </nav>
   );
 };
