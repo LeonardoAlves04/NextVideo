@@ -18,9 +18,6 @@ const Navbar = () => {
           YOOM
         </p>
       </Link>
-      <div className="flex-between gap-5">
-        <MobileNav />
-      </div>
     </nav>
   );
 };

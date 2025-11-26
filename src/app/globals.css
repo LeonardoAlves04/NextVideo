@@ -1,4 +1,4 @@
-@import "tailwindcss/preflight";
+@import "tailwindcss";
 
 @import "tw-animate-css";
 
@@ -135,6 +135,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-/* Insert utilities last so they can override base layer rules */
-@tailwind utilities;
