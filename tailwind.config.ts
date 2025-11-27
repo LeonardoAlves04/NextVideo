@@ -19,6 +19,19 @@ const config = {
       },
     },
     extend: {
+      colors: {
+        "dark-1": "#1c1f2e",
+        "dark-2": "#161925",
+        "dark-3": "#252a41",
+        "dark-4": "#1e2757",
+        "blue-1": "#0e78f9",
+        "sky-1": "#c9ddff",
+        "sky-2": "#ecf0ff",
+        "sky-3": "#f5fcff",
+        "orange-1": "#ff742e",
+        "purple-1": "#830ef9",
+        "yellow-1": "#f9a90e",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

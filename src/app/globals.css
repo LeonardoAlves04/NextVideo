@@ -12,6 +12,10 @@
   .flex-between {
     @apply flex items-center justify-between;
   }
+
+  .bg-blue-1 {
+    background-color: #0e78f9;
+  }
 }
 
 @theme {
@@ -142,6 +146,10 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
   }
+}
+
+.cl-providerIcon__github {
+  filter: invert(1);
 }
