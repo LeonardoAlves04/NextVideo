@@ -24,7 +24,7 @@ const config = {
         "dark-2": "#161925",
         "dark-3": "#252a41",
         "dark-4": "#1e2757",
-        "blue-1": "#0e78f9",
+        "blue-1": "#0E78F9",
         "sky-1": "#c9ddff",
         "sky-2": "#ecf0ff",
         "sky-3": "#f5fcff",
